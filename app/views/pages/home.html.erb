@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Website</title>
-    <link rel="stylesheet" href="../../app/assets/stylesheets/index.css">
-  </head>
-  <body>
-    <header>
-      <h1>This is the Homepage</h1>
-      <nav>
-        <a><%= link_to 'Alpha Blog', articles_path %></a>
-        <a><%= link_to 'About', about_path %></a>
-      </nav>
-    </header>
-    <div class="heroImg">
-    <%= image_tag 'kangaroo.jpg' %>
+  <div class="center jumbotron">
+    <div>
+      <h1>Alpha Blog</h1>
+      <%= link_to 'Sign Up Now!', "#", class: "btn btn-primary btn-lg" %>       
     </div>
-    <div class="parContainer">
-      <div class="parDiv">
-        <h2>This is some random text about kangaroos: </h2>
-        <p>The kangaroo is a marsupial from the family Macropodidae (macropods, meaning "large foot"). In common use the term is used to describe the largest species from this family, especially those of the genus Macropus: the red kangaroo, antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo.[1] Kangaroos are endemic to Australia. The Australian government estimates that 34.3 million kangaroos lived within the commercial harvest areas of Australia in 2011, up from 25.1 million one year earlier.</p>
-      </div>
-      <div class="parDiv">
-        <h2>This is some random text about kangaroos: </h2>
-        <p>The kangaroo is a marsupial from the family Macropodidae (macropods, meaning "large foot"). In common use the term is used to describe the largest species from this family, especially those of the genus Macropus: the red kangaroo, antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo.[1] Kangaroos are endemic to Australia. The Australian government estimates that 34.3 million kangaroos lived within the commercial harvest areas of Australia in 2011, up from 25.1 million one year earlier.</p>
-      </div>
-    </div>
-    <footer>Copyright LD 2017</footer>
-  </body>
-</html>
+  </div>
